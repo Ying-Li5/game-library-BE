@@ -17,10 +17,10 @@ app.use("/game", gameController)
 app.use("/user", userController)
 app.use("/review", reviewController)
 
-mongoose.connect("mongodb://127.0.0.1/final-project", {
-  useNewUrlParser: true, 
-  useUnifiedTopology: true
-})
+// mongoose.connect("mongodb://127.0.0.1/final-project", {
+//   useNewUrlParser: true, 
+//   useUnifiedTopology: true
+// })
 
 app.get('/', (req, res) => {
     res.send('Hello World!')
