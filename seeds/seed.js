@@ -2,7 +2,7 @@ const Review = require("../models/Review.js")
 const mongoose = require("mongoose")
 
 async function seed() {
-  mongoose.connect("mongodb://127.0.0.1/final-project", {
+  mongoose.connect("mongodb+srv://yingli:Welcome1@game-library.quo9kgy.mongodb.net/", {
     useNewUrlParser: true, 
     useUnifiedTopology: true
   })
